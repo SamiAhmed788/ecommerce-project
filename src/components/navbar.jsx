@@ -1,10 +1,17 @@
 import React from 'react'
-
+import {AppBar, Box, Button, Toolbar, Typography} from "@mui/material"
 function Navbar() {
   return (
-    <div>
-      NAVBAR
-    </div>
+    <Box sx={{ flexGrow: 1 }}>
+    <AppBar position="static">
+      <Toolbar>
+        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          MyApp
+        </Typography>
+        <Button color="inherit">Login</Button>
+      </Toolbar>
+    </AppBar>
+  </Box>
   )
 }
 
