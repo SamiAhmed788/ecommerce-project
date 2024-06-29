@@ -11,7 +11,7 @@ function Home() {
   return (
    <>
    <Annouecment/>
-   {/* <Navbar/> */}
+   <Navbar/>
    <Slidebar/>
    <Categories/>
    <Products/>
